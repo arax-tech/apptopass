@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb://admin:admin@cluster0-shard-00-00.oe8tl.mongodb.net:27017,cluster0-shard-00-01.oe8tl.mongodb.net:27017,cluster0-shard-00-02.oe8tl.mongodb.net:27017/apptopass?ssl=true&replicaSet=atlas-hcn7w3-shard-0&authSource=admin&retryWrites=true&w=majority`, {
+mongoose.connect("mongodb://yollodbuser:YolloVerse2023@202.21.32.148:27017", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then((result) => {
